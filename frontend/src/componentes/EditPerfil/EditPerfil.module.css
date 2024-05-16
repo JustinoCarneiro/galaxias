@@ -1,0 +1,120 @@
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nomecompleto{
+    display: flex;
+    justify-content: space-between;
+}
+.nomecompleto > *{
+    width: 49.5%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #122f5c;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: inherit;
+    color: inherit;
+    padding: 8px;
+}
+
+.email{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #122f5c;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: inherit;
+    color: inherit;
+    padding: 8px;
+}
+
+.telefone{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #122f5c;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: inherit;
+    color: inherit;
+    padding: 8px;
+}
+
+.titulo{
+    font-weight: bold;
+    color: #122f5c;
+}
+
+.exit{
+    font-size: 24px;
+    color: #122f5c;
+    cursor: pointer;
+}
+
+.botoes{
+    height: 25%;
+}
+
+.cancelar{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(74, 84, 230);
+    padding-right: 10px;
+}
+
+.salvar{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #122f5c;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}

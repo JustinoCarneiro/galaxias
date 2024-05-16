@@ -1,0 +1,30 @@
+[
+    {
+        "Titulo": "Quem é Jesus",
+        "Autor":  "Alessandro Vilas Boas",
+        "Capa":   "src/dados/capas/quemejesus.png",
+        "Preco": "20,00",
+        "id": 1
+    },
+    {
+        "Titulo": "Escatologia Essencial",
+        "Autor":  "Victor Vieira",
+        "Capa":   "src/dados/capas/escatologiaessencial.png",
+        "Preco": "40,01",
+        "id": 2
+    },
+    {
+        "Titulo": "Cristianismo puro e simples",
+        "Autor":  "C.S Lewis",
+        "Capa":   "src/dados/capas/cristpurosimples.png",
+        "Preco": "35,00",
+        "id": 3
+    },
+    {
+        "Titulo": "O Deus que destrói sonhos",
+        "Autor":  "Rodrigo Bibo",
+        "Capa":   "src/dados/capas/deusquedestroisonhos.png",
+        "Preco": "80,47",
+        "id": 4
+    }
+]

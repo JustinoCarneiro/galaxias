@@ -1,0 +1,92 @@
+.body{
+    min-height: 100vh;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.caixa{
+    background-color: #122f5c;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.titulo{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.credenciais{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    padding: 5px;
+}
+.input:focus{
+    outline: 0;
+}
+
+.caixa > .credenciais > .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.caixa > .credenciais > .caixa_senha > .senha{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.caixa > .credenciais > .caixa_senha > .esqueceu_senha{
+    all: unset;
+    font-size: 13px;
+    cursor: pointer;
+    width: 120px;
+    text-decoration: underline;
+}
+
+.caixa > .entrar > *{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color:#122f5c;
+}
+
+.caixa > .cadastrar > *{
+    all: unset;
+    text-decoration: none;
+    font-size: 13px;
+    text-decoration: underline;
+    color: white;
+}

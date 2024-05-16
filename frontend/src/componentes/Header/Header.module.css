@@ -1,0 +1,155 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-left: 30px solid #122f5c;
+    border-right: 30px solid #122f5c;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #122f5c;
+}
+
+.iconmenu{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.titulo{
+    position:  absolute;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.direita_bar{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.barra_busca{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.barra_busca > .button{
+    border: none;
+    border-left: 7px solid #122f5c;
+    border-right: 5px solid #122f5c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    width: 30px;
+}
+
+.barra_busca > .button:focus {
+    outline: none;
+}
+
+.barra_busca > .button > .iconbusca{
+    align-items: center;
+}
+
+.barra_busca > .input{
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #122f5c;
+    font-size: 17px;
+    margin-left: 5px;
+    cursor: text;
+    width: 80%;
+    height: 100%;
+}
+
+.barra_busca > .input:focus {
+    outline: none;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.direita_bar > .icones > .iconcarrinho{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.direita_bar > .icones > .login_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direita_bar > .icones > .login_perfil > .iconperfil{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    align-self: top;
+}
+
+.direita_bar > .icones > .login_perfil > .submenu{
+    background-color: #f2f1f1;
+    list-style: none;
+    position: absolute;
+    margin-top: 40px;
+    padding: 8px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.direita_bar > .icones > .login_perfil > .submenu > *{
+    margin-left: 5px;
+}
+
+.direita_bar > .icones > .login_perfil > .submenu > * > *{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.direita_bar > .icones > .login_perfil > .submenu > * > .sair{
+    color: rgb(243, 41, 41);
+}
+
+.direita_bar > .icones > .login_perfil > .submenu > * > .perfil:hover{
+    color: #122f5c;
+}
+
+.filtro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
